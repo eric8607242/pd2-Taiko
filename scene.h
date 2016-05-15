@@ -6,6 +6,7 @@
 #include <QTimer>
 #include <QKeyEvent>
 #include <QObject>
+#include <QSound>
 #include "buttom.h"
 #include "slot.h"
 #include "clock.h"
@@ -40,6 +41,8 @@ public:
     QTimer *timer;
     QTimer *timer1;
     QTimer *timer2;
+    QSound *bgmdr;
+    QSound *bg;
     score *sco;
     int *timecheck;
     int btn_w;

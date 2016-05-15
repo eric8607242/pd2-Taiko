@@ -31,6 +31,7 @@ void Scene::Init()
         object.push_back(0);
         ran.push_back(0);
     }
+
 }
 void Scene::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
@@ -103,6 +104,9 @@ void Scene::keyPressEvent(QKeyEvent *event)
                         if(btncheck->pos().x()+check_w/2 > object[i]->pos().x() && btncheck->pos().x() <= object[i]->pos().x()+check_w/2)
                         {
                             this->removeItem(object[i]);
+                            bgmdr = new QSound(":/pics/picture/middle_punch1.mp3");
+                            bgmdr->play();
+                            bgmdr->stop();
                             object.removeAt(i);
                             ran.removeAt(i);
 
@@ -116,6 +120,9 @@ void Scene::keyPressEvent(QKeyEvent *event)
                         if(btncheck->pos().x()+check_w/2 > object[i]->pos().x() && btncheck->pos().x() <= object[i]->pos().x()+check_w/2)
                         {
                             this->removeItem(object[i]);
+                            bg = new QSound(":/pics/picture/knocking_a_wall.mp3");
+                            bg->play();
+                            bg->stop();
                             object.removeAt(i);
                             ran.removeAt(i);
 
