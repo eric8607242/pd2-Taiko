@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>picture/pic/img/bg.png</file>
+        <file>picture/pic/img/mtaikoflower.png</file>
+        <file>picture/pic/img/normagauge_hard.png</file>
+        <file>picture/pic/img/normallayer.png</file>
+        <file>picture/pic/img/playercharballoon_p1.png</file>
+        <file>picture/pic/img/playercharballoon_p2.png</file>
+        <file>picture/pic/img/playercharpotato.png</file>
+        <file>picture/pic/img/playercharpotato_p1.png</file>
+        <file>picture/pic/img/playercharpotato_p2.png</file>
+        <file>picture/pic/img/potatonumber.png</file>
+        <file>picture/pic/img/resultbg_clear.png</file>
+        <file>picture/pic/img/resultbg_failure.png</file>
+        <file>picture/2q99yeo.jpg</file>
+        <file>picture/d7401ae699ebd7c359f1059caa7d4c6cdb6e59e4</file>
+        <file>picture/personal-computer-zhuomian-25.png</file>
+        <file>picture/de.png</file>
+        <file>picture/638535.png</file>
+        <file>picture/2565.png</file>
+        <file>picture/44546.png</file>
+        <file>picture/t12.jpg</file>
+        <file>picture/1266831023419.jpg</file>
+        <file>picture/3f183fd1_1315026896357.jpg</file>
+        <file>picture/454.png</file>
+        <file>picture/1235.png</file>
+    </qresource>
+</RCC>
